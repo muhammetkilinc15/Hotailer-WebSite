@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\mami\\documents\\github\\hotelweb\\hotailer website\\apiconsume\\hotelproject.webapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\mami\\documents\\github\\hotelweb\\hotailer website\\apiconsume\\hotelproject.webapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Controllers\\StaffController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T01:14:35.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T01:11:04.683Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
