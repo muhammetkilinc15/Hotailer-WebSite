@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\ApiConsume",
+    "\\ApiConsume\\HotelProject.EntityLayer",
+    "\\ApiConsume\\HotelProject.EntityLayer\\Concreate",
     "\\ApiConsume\\HotelProject.WebApi",
-    "\\ApiConsume\\HotelProject.WebApi\\bin",
-    "\\ApiConsume\\HotelProject.WebApi\\bin\\Release"
+    "\\ApiConsume\\HotelProject.WebApi\\Controllers"
   ],
-  "SelectedNode": "\\Hotailer WebSite.sln",
+  "SelectedNode": "\\ApiConsume\\HotelProject.EntityLayer\\Concreate\\Staff.cs",
   "PreviewInSolutionExplorer": false
 }

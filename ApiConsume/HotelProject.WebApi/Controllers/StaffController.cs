@@ -7,6 +7,7 @@ namespace HotelProject.WebApi.Controllers
 	[ApiController]
 	public class StaffController : ControllerBase
 	{
+
 		[HttpGet]
 		public IActionResult StaffList()
 		{
