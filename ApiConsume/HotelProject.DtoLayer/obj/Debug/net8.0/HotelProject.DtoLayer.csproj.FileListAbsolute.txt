@@ -15,3 +15,4 @@ C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DtoLayer
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DtoLayer\obj\Debug\net8.0\HotelProject.DtoLayer.pdb
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DtoLayer\obj\Debug\net8.0\HotelProject.DtoLayer.genruntimeconfig.cache
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DtoLayer\obj\Debug\net8.0\ref\HotelProject.DtoLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DtoLayer\obj\Debug\net8.0\HotelProject.DtoLayer.sourcelink.json

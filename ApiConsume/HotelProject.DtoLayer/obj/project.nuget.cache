@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WZ60fiWn/De6KCwowVoQ1H651gVDtBPND0nGJMZF+8FZqh+NbpdK7uTNUruGVwX1/ddoXeITokrfeME+l5pvug==",
+  "dgSpecHash": "aL6cs6g1Kv+DnlGL4NWYNkrONfo+iZCxTN8C20KTo6pFDogpBcer3+D/ukZCofcmYOyc3uoW+foe4HSlbBRvuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\HotelWeb\\Hotailer WebSite\\ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj",
+  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mami\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mami\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

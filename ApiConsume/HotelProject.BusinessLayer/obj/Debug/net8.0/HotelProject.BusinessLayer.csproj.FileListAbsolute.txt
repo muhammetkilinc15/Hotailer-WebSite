@@ -17,3 +17,4 @@ C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.Business
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.BusinessLayer\obj\Debug\net8.0\HotelProject.BusinessLayer.pdb
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.BusinessLayer\obj\Debug\net8.0\HotelProject.BusinessLayer.genruntimeconfig.cache
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.BusinessLayer\obj\Debug\net8.0\ref\HotelProject.BusinessLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.BusinessLayer\obj\Debug\net8.0\HotelProject.BusinessLayer.sourcelink.json

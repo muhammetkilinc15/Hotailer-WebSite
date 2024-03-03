@@ -40,7 +40,7 @@ namespace HotelProject.BusinessLayer.Concreate
 
 		public void TUpdate(Staff entity)
 		{
-			throw new NotImplementedException();
+			_staffDal.Update(entity);
 		}
 	}
 }
