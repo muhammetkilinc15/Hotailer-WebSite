@@ -74,6 +74,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelProject.WebApi.Controllers.Room2Controller",
+    "Method": "Index",
+    "RelativePath": "api/Room2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelProject.WebApi.Controllers.Room2Controller",
+    "Method": "AddRoom",
+    "RelativePath": "api/Room2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomAddDto",
+        "Type": "HotelProject.DtoLayer.Dtos.RoomDto.RoomAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelProject.WebApi.Controllers.ServiceController",
     "Method": "ServiceList",
     "RelativePath": "api/Service",
@@ -323,22 +349,6 @@
   },
   {
     "ContainingType": "HotelProject.WebApi.Controllers.TestimonialController",
-    "Method": "DeleteTestimonial",
-    "RelativePath": "api/Testimonial",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelProject.WebApi.Controllers.TestimonialController",
     "Method": "UpdateTestimonial",
     "RelativePath": "api/Testimonial",
     "HttpMethod": "PUT",
@@ -348,6 +358,22 @@
       {
         "Name": "p",
         "Type": "HotelProject.EntityLayer.Concreate.Testimonial",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelProject.WebApi.Controllers.TestimonialController",
+    "Method": "DeleteTestimonial",
+    "RelativePath": "api/Testimonial/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

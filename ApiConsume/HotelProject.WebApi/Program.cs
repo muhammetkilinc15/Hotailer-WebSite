@@ -3,6 +3,8 @@ using HotelProject.BusinessLayer.Concreate;
 using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concreate;
 using HotelProject.DataAccessLayer.EntityFramework;
+using HotelProject.EntityLayer.Concreate;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +28,10 @@ builder.Services.AddScoped<ISubscribeService, SubscribeManager>(); // ISubscribe
 builder.Services.AddScoped<IRoomDal, EfRoomDal>(); // IRoomDal görünce  EfRoomDal dal kullan
 builder.Services.AddScoped<IRoomService, RoomManager>(); // IRoomService görünce de RoomManager Kullan demek
 
+
+
+
+builder.Services.AddAutoMapper(typeof(Program)); // AutoMapper için ekledik
 
 // -----> APIYI baþka katmanlar da kullanmak için gerekli 
 builder.Services.AddCors(opt =>
