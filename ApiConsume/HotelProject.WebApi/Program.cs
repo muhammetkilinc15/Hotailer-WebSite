@@ -28,6 +28,10 @@ builder.Services.AddScoped<ISubscribeService, SubscribeManager>(); // ISubscribe
 builder.Services.AddScoped<IRoomDal, EfRoomDal>(); // IRoomDal görünce  EfRoomDal dal kullan
 builder.Services.AddScoped<IRoomService, RoomManager>(); // IRoomService görünce de RoomManager Kullan demek
 
+builder.Services.AddScoped<IAboutDal, EfAboutDal>(); // IRoomDal görünce  EfRoomDal dal kullan
+builder.Services.AddScoped<IAboutService, AboutManager>(); // IRoomService görünce de RoomManager Kullan demek
+
+
 
 
 
