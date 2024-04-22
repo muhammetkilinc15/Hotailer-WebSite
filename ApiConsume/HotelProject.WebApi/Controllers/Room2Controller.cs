@@ -39,5 +39,16 @@ namespace HotelProject.WebApi.Controllers
             roomService.TAdd(values);
             return Ok();
         }
+        [HttpPut]
+        public IActionResult UpdateRoom(RoomUpdateDto roomUpdateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var values = mapper.Map<Room>(roomUpdateDto);
+            roomService.TUpdate(values);
+            return Ok("Room Updated successfully!!!");
+        }
     }
 }

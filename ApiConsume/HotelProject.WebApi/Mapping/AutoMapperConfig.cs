@@ -9,11 +9,9 @@ namespace HotelProject.WebUI.Mapping
         // Amaç dto katmanındaki sınıflar ile entity katmanındaki sınıflar eşlenmiş oluyor
         public AutoMapperConfig()
         {
-            CreateMap<RoomAddDto, Room>();
-            CreateMap<Room, RoomAddDto>();
-
-
-            CreateMap<UpdateRoomDto,Room>().ReverseMap();
+            CreateMap<RoomAddDto, Room>().ReverseMap();
+   
+            CreateMap<RoomUpdateDto,Room>().ReverseMap();
 
         }
     }

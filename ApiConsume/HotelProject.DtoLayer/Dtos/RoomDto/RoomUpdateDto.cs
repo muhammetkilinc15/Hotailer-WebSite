@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DtoLayer.Dtos.RoomDto
 {
-    public class UpdateRoomDto
+    public class RoomUpdateDto
     {
         public int RoomId { get; set; }
         [Required(ErrorMessage = "Lütfen Oda numarasını giriniz")]
