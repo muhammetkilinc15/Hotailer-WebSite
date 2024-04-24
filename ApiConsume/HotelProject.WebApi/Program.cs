@@ -31,6 +31,10 @@ builder.Services.AddScoped<IRoomService, RoomManager>(); // IRoomService görünce
 builder.Services.AddScoped<IAboutDal, EfAboutDal>(); // IRoomDal görünce  EfRoomDal dal kullan
 builder.Services.AddScoped<IAboutService, AboutManager>(); // IRoomService görünce de RoomManager Kullan demek
 
+builder.Services.AddScoped<IBookingDal, EfBookingDal>(); // IRoomDal görünce  EfRoomDal dal kullan
+builder.Services.AddScoped<IBookingService, BookingManager>(); // IRoomService görünce de RoomManager Kullan demek
+
+
 
 
 

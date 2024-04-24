@@ -18,14 +18,14 @@ namespace HotelProject.WebUI.ViewComponents.Default
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            //var client = _httpClientFactory.CreateClient();
-            //var responseMessage = await client.GetAsync("http://localhost:3523/api/Service");
-            //if (responseMessage.IsSuccessStatusCode)
-            //{
-            //    var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            //    var values = JsonConvert.DeserializeObject<List<ResultServiceDto>>(jsonData);
-            //    return View(values);
-            //}
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:39280/api/Service");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultServiceDto>>(jsonData);
+                return View(values);
+            }
             return View();
         }
     }

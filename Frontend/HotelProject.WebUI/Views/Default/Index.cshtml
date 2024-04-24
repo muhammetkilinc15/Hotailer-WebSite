@@ -2,12 +2,10 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
- 
     @await Component.InvokeAsync("_HeadPartial")
 </head>
 
@@ -21,8 +19,6 @@
         @await Component.InvokeAsync("_NavbarPartial")
         
         <!-- Header End -->
-
-
         <!-- Carousel Start -->
         @await Component.InvokeAsync("_SliderPartial")
         <!-- Carousel End -->
@@ -63,7 +59,7 @@
 
 
         <!-- Newsletter Start -->
-        @await Component.InvokeAsync("_NewsletterPartial")
+        @await Html.PartialAsync("_SubscribePartial.cshtml");
         <!-- Newsletter Start -->
         
 

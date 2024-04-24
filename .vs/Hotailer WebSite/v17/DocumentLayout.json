@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\viewcomponents\\default\\_ourroomspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_ourroomspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\views\\shared\\components\\_ourroomspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\shared\\components\\_ourroomspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T21:57:34.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_OurRoomsPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_OurRoomsPartial.cs",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_OurRoomsPartial.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_OurRoomsPartial.cs",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_OurRoomsPartial.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBAAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:55:17.464Z",
-              "EditorCaption": ""
             }
           ]
         }

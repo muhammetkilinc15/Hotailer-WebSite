@@ -22,14 +22,21 @@ namespace HotelProject.WebApi.Controllers
 			return Ok(values);
 		}
 
-		[HttpPost]
-		public IActionResult AddSubscribe(Subscribe p)
-		{
-			_subscribeService.TAdd(p);
-			return Ok();
-		}
+        [HttpPost]
+        public async Task<IActionResult> AddSubscribe(Subscribe p)
+        {
+            try
+            {
+                _subscribeService.TAdd(p);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
-		[HttpDelete]
+        [HttpDelete]
 		public IActionResult DeleteSubscribe(int id)
 		{
 
