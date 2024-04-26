@@ -178,6 +178,10 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("Checkout")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ChildCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -194,6 +198,9 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SpecialRequest")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("BookingId");

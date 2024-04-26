@@ -1,0 +1,82 @@
+﻿@model List<ImdbViewModel>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IndexAsync</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Özel stil eklemeleri */
+        .thumbnail {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        .modal-dialog {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Tüm zamanların en iyi 100 filmi</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Başlık</th>
+                    <th>Yıl</th>
+                    <th>Puan</th>
+                    <th>Foto</th>
+                    <th>Fragman</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.rank</td>
+                        <td>@item.title</td>
+                        <td>@item.year</td>
+                        <td>@item.rating</td>
+                        <td><img src="@item.big_image" style="height:auto" width="75px" class="thumbnail" /></td>
+                        <td><button class="btn btn-dark btn-sm" onclick="showTrailer('@item.trailer')">Fragmanı izle</button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Fragman popup modal -->
+    <div class="modal" id="trailerModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fragman</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="trailerVideo" class="embed-responsive embed-responsive-16by9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Fragman popupunu göster
+        function showTrailer(trailerUrl) {
+            $('#trailerVideo').html('<iframe class="embed-responsive-item" src="' + trailerUrl + '" allowfullscreen></iframe>');
+            $('#trailerModal').modal('show');
+        }
+    </script>
+</body>
+</html>
