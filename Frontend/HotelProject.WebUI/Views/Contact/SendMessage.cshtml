@@ -1,0 +1,113 @@
+﻿<div class="container-xxl py-5">
+	<div class="container">
+		<div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+			<h6 class="section-title text-center text-primary text-uppercase">Bize Ulaşın</h6>
+			<h1 class="mb-5"><span class="text-primary text-uppercase">Tüm sorularınız için </span>bize  yazabilirsiniz</h1>
+		</div>
+		<div class="row g-4">
+			<div class="col-12">
+				<div class="row gy-4">
+					<div class="col-md-4">
+						<h6 class="section-title text-start text-primary text-uppercase">Rezervasyon</h6>
+						<p><i class="fa fa-envelope-open text-primary me-2"></i>hotelApi@example.com</p>
+					</div>
+					<div class="col-md-4">
+						<h6 class="section-title text-start text-primary text-uppercase">Genel Sorularınız</h6>
+						<p><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</p>
+					</div>
+					<div class="col-md-4">
+						<h6 class="section-title text-start text-primary text-uppercase">İş Başvurusu</h6>
+						<p><i class="fa fa-envelope-open text-primary me-2"></i>ik@example.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+				<iframe class="position-relative rounded w-100 h-100"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.756138565989!2d35.31141181522536!3d37.09283487988867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b87d1b5b2b65f%3A0xf17f87b4b8287c9f!2sAdana%20Sar%C4%B1%C3%A7am%20Alparslan%20T%C3%BCrke%C5%9F%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1648515133126!5m2!1str!2str"
+						frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+						tabindex="0"></iframe>
+			</div>
+
+			<div class="col-md-6">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+					<form id="bookingForm">
+						<div class="row g-3">
+							<div class="col-md-6">
+								<div class="form-floating">
+									<input type="text" class="form-control" id="name" placeholder="Adınız">
+									<label for="name">Adınız</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating">
+									<input type="email" class="form-control" id="email" placeholder="Email Adresiniz">
+									<label for="email">Email Adresiniz</label>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-floating">
+									<input type="text" class="form-control" id="subject" placeholder="Konu">
+									<label for="subject">Konu</label>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-floating">
+									<textarea class="form-control" placeholder="Mesajınız" id="message" style="height: 150px"></textarea>
+									<label for="message">Mesajınız</label>
+								</div>
+							</div>
+							<div class="col-12">
+								<button class="btn btn-primary w-100 py-3" type="submit">Mesajı Gönder</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Sweat Alert-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$("#bookingForm").submit(function (e) {
+			e.preventDefault(); // Formun default submit işlemini engelle
+			var contact = {
+				Name: $("#name").val(),
+				Mail: $("#email").val(),
+				Subject: $("#subject").val(),
+				Message: $("#message").val()
+			};
+
+			$.ajax({
+				type: "POST",
+				url: "/Contact/SendMessage/",
+				data: contact,
+				success: function (data) {
+					if (data=="success") {
+						setTimeout(function () {
+							Swal.fire({
+								icon: 'success',
+								title: 'Mesaj  !',
+								text: 'Mesajınız iletilmiştir. En kısa sürede size dönüş sağlayacağız.'
+							}).then(function () {
+								// Form temizlenecek
+								$("#bookingForm")[0].reset();
+							});
+						}, 200);
+					}
+				},
+				error: function (xhr, status, error) {
+					alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+				}
+			});
+		}); 
+	});
+</script>
+

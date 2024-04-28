@@ -1,173 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\views\\shared\\components\\_navbarpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\shared\\components\\_navbarpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.dataaccesslayer\\concreate\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|solutionrelative:apiconsume\\hotelproject.dataaccesslayer\\concreate\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.dataaccesslayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|solutionrelative:apiconsume\\hotelproject.dataaccesslayer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.dataaccesslayer\\entityframework\\efguestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|solutionrelative:apiconsume\\hotelproject.dataaccesslayer\\entityframework\\efguestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.dataaccesslayer\\abstract\\iguestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B405B73B-2B9C-4FB8-B234-D612A23287B0}|ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj|solutionrelative:apiconsume\\hotelproject.dataaccesslayer\\abstract\\iguestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{505041CC-8999-459A-B3D6-0F5A45797547}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.entitylayer\\concreate\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505041CC-8999-459A-B3D6-0F5A45797547}|ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj|solutionrelative:apiconsume\\hotelproject.entitylayer\\concreate\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutaspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\viewcomponents\\default\\_aboutaspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\views\\shared\\components\\_aboutaspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\shared\\components\\_aboutaspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 347,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T11:46:03.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Concreate\\Context.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Concreate\\Context.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Concreate\\Context.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.DataAccessLayer\\Concreate\\Context.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:18:53.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.DataAccessLayer\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:18:28.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EfGuestDal.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfGuestDal.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfGuestDal.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfGuestDal.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.DataAccessLayer\\EntityFramework\\EfGuestDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:17:28.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGuestDal.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGuestDal.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGuestDal.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGuestDal.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.DataAccessLayer\\Abstract\\IGuestDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:16:29.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.EntityLayer\\Concreate\\Guest.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.EntityLayer\\Concreate\\Guest.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.EntityLayer\\Concreate\\Guest.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.EntityLayer\\Concreate\\Guest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:57:57.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_AboutAsPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutAsPartial.cs",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutAsPartial.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutAsPartial.cs",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\ViewComponents\\Default\\_AboutAsPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:52:29.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutAsPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutAsPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutAsPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Views\\Shared\\Components\\_AboutAsPartial\\Default.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T10:49:26.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Views\\Default\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T10:39:45.437Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

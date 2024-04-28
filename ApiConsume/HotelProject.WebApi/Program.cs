@@ -34,6 +34,8 @@ builder.Services.AddScoped<IAboutService, AboutManager>(); // IRoomService görün
 builder.Services.AddScoped<IBookingDal, EfBookingDal>(); // IRoomDal görünce  EfRoomDal dal kullan
 builder.Services.AddScoped<IBookingService, BookingManager>(); // IRoomService görünce de RoomManager Kullan demek
 
+builder.Services.AddScoped<IContactDal, EfContactDal>();
+builder.Services.AddScoped<IContactService, ContactManager>();
 
 
 
