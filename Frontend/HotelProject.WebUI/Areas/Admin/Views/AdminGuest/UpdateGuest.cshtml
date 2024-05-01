@@ -1,0 +1,28 @@
+﻿@model UpdateGuestDto
+@{
+    ViewData["Title"] = "UpdateGuest";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    @Html.HiddenFor(x => x.GuestId)
+	<div class="form-group">
+		<label>Misafir Adı</label>
+		<input type="text" class="input-rounded form-control" asp-for="Name"  value="@Model.Name"/>
+	</div>
+
+	<div class="form-group">
+		<label>Misafir Soyadı</label>
+		<input type="text" class="input-rounded form-control" asp-for="Suname" value="@Model.Suname" />
+	</div>
+
+	<div class="form-group">
+		<label>Misafir Şehri</label>
+		<input type="text" class="input-rounded form-control" asp-for="City" value="@Model.City" />
+	</div>
+
+	<button class="btn mb-1 btn-rounded btn-outline-dark" type="submit">Misafiri Güncelle</button>
+</form>
+
+
+

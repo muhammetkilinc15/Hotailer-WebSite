@@ -1,0 +1,47 @@
+﻿@model UpdateRoomDto
+@{
+    ViewData["Title"] = "UpdateRoom";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    @Html.HiddenFor(x => x.RoomId)
+    <div class="form-group">
+        <label>Oda Numarası</label>
+        <input type="text" class="input-rounded form-control" asp-for="RoomNumber" value="@Model.RoomNumber" />
+    </div>
+    <div class="form-group">
+        <label>Oda Başlığı</label>
+        <input type="text" class="input-rounded form-control" asp-for="Title" value="@Model.Title" />
+    </div>
+    <div class="form-group">
+        <label>Fiyat</label>
+        <input type="text" class="input-rounded form-control" asp-for="Price" value="@Model.Price" />
+    </div>
+
+    <div class="form-group">
+        <label>Yatak Odası Sayısı</label>
+        <input type="text" class="input-rounded form-control" asp-for="BedCount" value="@Model.BedCount" />
+    </div>
+
+    <div class="form-group">
+        <label>Kapak Fotoğrafı</label>
+        <div class="text-center">
+            <input type="hidden" asp-for="@Model.CoverImage">
+            <img id="coverImagePreview" src="@Model.CoverImage" alt="Cover Image Preview" style="max-width: 200px; max-height: 200px; margin-top: 10px;" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Banyo Sayısı</label>
+        <input type="text" class="input-rounded form-control" asp-for="BathCount" value="@Model.BathCount" />
+    </div>
+    <div class="form-group">
+        <label>Açıklama</label>
+        <input type="text" class="input-rounded form-control" asp-for="Description" value="@Model.Description" />
+    </div>
+
+    <button class="btn mb-1 btn-rounded btn-outline-dark" type="submit">Odayı Güncelle</button>
+</form>
+
+

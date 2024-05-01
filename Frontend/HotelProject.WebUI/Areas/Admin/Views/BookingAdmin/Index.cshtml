@@ -1,10 +1,10 @@
 ﻿@model List<ResultBookingDto>
+
 @{
 	ViewData["Title"] = "Index";
-	Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+	Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
 	int count = 0;
 }
-
 
 <div class="card-title">
 	<h4>Table Hover</h4>
@@ -37,16 +37,17 @@
 					@if (item.Status == "onaylandı")
 					{
 						<td><span class="badge badge-dark px-2">@item.Status</span></td>
-					}else
+					}
+					else
 					{
 						<td><span class="badge badge-primary px-2">@item.Status</span></td>
 					}
 
-					<td><a href="/BookingAdmin/ApprovedReservastion/@item.BookingId" class="btn btn-outline-primary">Onayla</a></td>
-					<td><a href="/BookingAdmin/" class="btn btn-outline-danger">İptal Et</a></td>
-					<td><a href="/BookingAdmin/" class="btn btn-outline-warning">Beklet</a></td>
-					<td><a href="/BookingAdmin/" class="btn btn-outline-info">Güncelle</a></td>
-					<td><a href="/BookingAdmin/" class="btn btn-outline-dark">Detaylar</a></td>
+					<td><a href="/Admin/BookingAdmin/ApprovedReservastion/@item.BookingId" class="btn btn-outline-primary">Onayla</a></td>
+					<td><a href="/Admin/BookingAdmin/" class="btn btn-outline-danger">İptal Et</a></td>
+					<td><a href="/Admin/BookingAdmin/" class="btn btn-outline-warning">Beklet</a></td>
+					<td><a href="/Admin/BookingAdmin/" class="btn btn-outline-info">Güncelle</a></td>
+					<td><a href="/Admin/BookingAdmin/" class="btn btn-outline-dark">Detaylar</a></td>
 				</tr>
 			}
 

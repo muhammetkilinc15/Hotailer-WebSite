@@ -1,7 +1,7 @@
 ﻿@model List<HotelProject.WebUI.Models.Staff.StaffViewModel>
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
 }
 
 <table class="table table-hover">
@@ -19,10 +19,10 @@
             <th>@item.StaffID</th>
             <td>@item.Name</td>
             <td>@item.Title</td>
-            <td><a href="/Staff/DeleteStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
-            <td><a href="/Staff/UpdateStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-warning">Güncelle</a></td>
+            <td><a href="/Admin/Staff/DeleteStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Staff/UpdateStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-warning">Güncelle</a></td>
             <td><a href="#" class="btn mb-1 btn-rounded btn-outline-info">Detaylar</a></td>
         </tr>
     }
 </table>
-<a href="/Staff/AddStaff" class="btn mb-1 btn-rounded btn-outline-primary">Yeni Staff Ekle</a>
+<a href="/Admin/Staff/AddStaff" class="btn mb-1 btn-rounded btn-outline-primary">Yeni Staff Ekle</a>

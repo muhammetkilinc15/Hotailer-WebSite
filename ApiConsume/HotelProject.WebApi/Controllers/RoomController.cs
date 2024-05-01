@@ -12,12 +12,12 @@ namespace HotelProject.WebApi.Controllers
 	public class RoomController : ControllerBase
 	{
 		private readonly IRoomService _roomService;
+		private readonly IMapper _mapper;
 
-
-        public RoomController(IRoomService roomService)
+        public RoomController(IRoomService roomService, IMapper mapper)
         {
             _roomService = roomService;
-        
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -30,7 +30,6 @@ namespace HotelProject.WebApi.Controllers
 		[HttpPost]
 		public IActionResult AddRoom(Room room)
 		{
-		
 			_roomService.TAdd(room);
 			return Ok();
 		}
@@ -42,13 +41,22 @@ namespace HotelProject.WebApi.Controllers
 			return Ok();
 		}
 
-
-
 		[HttpGet("{id}")]
 		public IActionResult GetRoom(int id)
 		{
 			var value = _roomService.TGetByID(id);
 			return Ok(value);
 		}
-	}
+        [HttpPut]
+        public IActionResult UpdateRoom(RoomUpdateDto roomUpdateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var values = _mapper.Map<Room>(roomUpdateDto);
+            _roomService.TUpdate(values);
+            return Ok("Room Updated successfully!!!");
+        }
+    }
 }

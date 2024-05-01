@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace HotelProject.WebUI.Controllers
+namespace HotelProject.WebUI.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+    [Route("/Admin/[controller]/[action]/{id?}")]
     public class TestimonialController : Controller
     {
         IHttpClientFactory httpClientFactory;
@@ -73,11 +75,11 @@ namespace HotelProject.WebUI.Controllers
         public async Task<IActionResult> UpdateTestiminial(TestimoniaViewModel p)
         {
             var client = httpClientFactory.CreateClient();
-            
+
             var jsonData = JsonConvert.SerializeObject(p);
-            StringContent content = new StringContent(jsonData,Encoding.UTF8,"application/json");
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PutAsync("http://localhost:39280/api/Testimonial", content);
-           if (responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }

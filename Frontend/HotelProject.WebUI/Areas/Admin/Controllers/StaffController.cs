@@ -4,9 +4,11 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Text;
 
-namespace HotelProject.WebUI.Controllers
+namespace HotelProject.WebUI.Areas.Admin.Controllers
 {
-    public class StaffController : Controller
+    [Area("Admin")]
+	[Route("/Admin/[controller]/[action]/{id?}")]
+	public class StaffController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
 
@@ -39,7 +41,7 @@ namespace HotelProject.WebUI.Controllers
         {
             var client = httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(p);
-            StringContent content = new StringContent(jsonData,Encoding.UTF8,"application/json");
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("http://localhost:39280/api/Staff", content);
             if (responseMessage.IsSuccessStatusCode)
             {
@@ -59,7 +61,7 @@ namespace HotelProject.WebUI.Controllers
             return View();
         }
         [HttpGet]
-        public  async Task<IActionResult> UpdateStaff(int id)
+        public async Task<IActionResult> UpdateStaff(int id)
         {
             var client = httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"http://localhost:39280/api/Staff/{id}");
@@ -69,22 +71,22 @@ namespace HotelProject.WebUI.Controllers
                 var value = JsonConvert.DeserializeObject<UpdateViewModel>(jsonData);
                 return View(value);
             }
-            
+
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> UpdateStaff(UpdateViewModel p)
         {
-			var client = httpClientFactory.CreateClient();
-			var jsonData = JsonConvert.SerializeObject(p);
-			StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var client = httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(p);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PutAsync("http://localhost:39280/api/Staff/", content);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
-			return View(p);
+            return View(p);
         }
     }
 }
