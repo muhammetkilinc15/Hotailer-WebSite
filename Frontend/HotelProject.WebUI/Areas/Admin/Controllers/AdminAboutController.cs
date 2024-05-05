@@ -4,8 +4,9 @@ using Newtonsoft.Json;
 
 namespace HotelProject.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class AdminAboutController : Controller
+	[Area("Admin")]
+	[Route("/Admin/[controller]/[action]/{id?}")]
+	public class AdminAboutController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 

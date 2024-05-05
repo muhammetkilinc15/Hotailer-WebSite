@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BYm91dFxVcGRhdGVBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mami/Documents/GitHub/Hotailer WebSite/Frontend/HotelProject.WebUI/Areas/Admin/Views/AdminContact/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0XEluYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Hotailer WebSite/Frontend/HotelProject.WebUI/Areas/Admin/Views/AdminContact/SideBarAdminCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0XFNpZGVCYXJBZG1pbkNhdGVnb3J5UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Hotailer WebSite/Frontend/HotelProject.WebUI/Areas/Admin/Views/AdminContact/SideBarAdminContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0XFNpZGVCYXJBZG1pbkNvbnRhY3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mami/Documents/GitHub/Hotailer WebSite/Frontend/HotelProject.WebUI/Areas/Admin/Views/AdminGuest/AddGuest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HdWVzdFxBZGRHdWVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

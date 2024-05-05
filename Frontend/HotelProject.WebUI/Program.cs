@@ -1,5 +1,9 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using HotelProject.DataAccessLayer.Concreate;
 using HotelProject.EntityLayer.Concreate;
+using HotelProject.WebUI.DTOs.GuestDto;
+using HotelProject.WebUI.ValidationRules.GuestValidationRules;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 // <<<------------
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IValidator<CreateGuestDto>,CreateGuestValidator>();
+builder.Services.AddTransient<IValidator<UpdateGuestDto>,UpdateGuestValidator>();
+
+builder.Services.AddControllersWithViews().AddFluentValidation();
 
 
 builder.Services.AddDbContext<Context>();
@@ -18,6 +25,7 @@ builder.Services.AddIdentity<AppUser, AppRole>(options =>
 		options.Password.RequireLowercase = true;
 		options.Password.RequireUppercase = true;
 		options.Password.RequireNonAlphanumeric = true;
+		options.User.RequireUniqueEmail = true;
 		options.Password.RequiredLength = 8;
 	})
 	.AddEntityFrameworkStores<Context>()
@@ -41,6 +49,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// Area için gerekli alan *****
 app.UseEndpoints(endpoints =>
 {
 	endpoints.MapControllerRoute(

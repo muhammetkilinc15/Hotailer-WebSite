@@ -39,6 +39,11 @@ namespace HotelProject.WebUI.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> AddGuest(CreateGuestDto dto)
         {
+
+            if (!ModelState.IsValid)
+            {
+               return View(dto);
+            }
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(dto);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -67,6 +72,7 @@ namespace HotelProject.WebUI.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateGuest(int id)
         {
+         
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"http://localhost:39280/api/Guest/{id}");
             if (responseMessage.IsSuccessStatusCode)
@@ -81,6 +87,9 @@ namespace HotelProject.WebUI.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateGuest(UpdateGuestDto dto)
         {
+            if(!ModelState.IsValid)
+                return View(dto);
+
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(dto);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");

@@ -23,9 +23,9 @@ namespace HotelProject.WebApi.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult AddContact(Contact contact)
+		public IActionResult AddContact([FromBody] Contact contact,CancellationToken token)
 		{
-			if (contact==null)
+			if (contact is null)
 			{
 				return BadRequest();
 			}
@@ -33,5 +33,6 @@ namespace HotelProject.WebApi.Controllers
 			_contactService.TAdd(contact);
 			return Ok();
 		}
+
 	}
 }
