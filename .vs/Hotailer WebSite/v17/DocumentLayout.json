@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\apiconsume\\hotelproject.webapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\messagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\messagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inbox.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
+              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T20:00:03.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAAAMAAAA",
+              "Title": "MessageDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
+              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T19:55:10.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminContactController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
+              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
+              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:26:04.989Z",
+              "WhenOpened": "2024-05-07T19:15:33.686Z",
               "EditorCaption": ""
             }
           ]
