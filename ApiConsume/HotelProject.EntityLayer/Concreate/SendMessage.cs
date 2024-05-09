@@ -16,6 +16,6 @@ namespace HotelProject.EntityLayer.Concreate
         public string ReiverMail { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public string Content { get; set; } = string.Empty;
-        public DateTime SenderMail { get; set; }
+        public DateTime Date { get; set; }
     }
 }

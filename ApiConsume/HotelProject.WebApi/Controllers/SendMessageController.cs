@@ -31,20 +31,20 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteRoom(int id)
+        public IActionResult DeleteSendMessage(int id)
         {
             _sendService.TDelete(_sendService.TGetByID(id));
             return Ok();
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetRoom(int id)
+        public IActionResult GetSendMessage(int id)
         {
             var value = _sendService.TGetByID(id);
             return Ok(value);
         }
         [HttpPut]
-        public IActionResult UpdateRoom(SendMessage sendMessage)
+        public IActionResult UpdateSendMessage(SendMessage sendMessage)
         {
             _sendService.TUpdate(sendMessage);
             return Ok("Room Updated successfully!!!");

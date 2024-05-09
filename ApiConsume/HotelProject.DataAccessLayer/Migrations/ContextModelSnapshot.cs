@@ -311,6 +311,9 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("ReiverMail")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -322,9 +325,6 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<string>("SenderEmail")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("SenderMail")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("SenderName")
                         .IsRequired()

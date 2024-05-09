@@ -1,0 +1,46 @@
+﻿@model ResultContactDto
+@{
+    ViewData["Title"] = "MessageDetailsInbox";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+
+@Html.Partial("SideBarAdminContactPartial")
+<div class="email-right-box">
+
+	<div role="toolbar" class="toolbar">
+		<div class="btn-group">
+			<button aria-expanded="false" data-toggle="dropdown" class="btn btn-dark dropdown-toggle" type="button">
+				Gelen Mesajlar <span class="caret m-l-5"></span>
+			</button>
+			<div class="dropdown-menu">
+				<span class="dropdown-header">More Option :</span>  <a href="javascript: void(0);" class="dropdown-item">Mark as Unread</a>  <a href="javascript: void(0);" class="dropdown-item">Add to Tasks</a>  <a href="javascript: void(0);" class="dropdown-item">Add Star</a>  <a href="javascript: void(0);" class="dropdown-item">Mute</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="read-content">
+		<div class="media pt-5">
+			<img class="mr-3 rounded-circle" src="~/adminweb/images/avatar/1.jpg">
+			<div class="media-body">
+				<h5 class="m-b-3">@Model.Name</h5>
+				<p class="m-b-2">@Model.Date.ToString("ddd-MMM-yyyy")</p>
+			</div>
+
+		</div>
+		<hr>
+		<div class="media mb-4 mt-1">
+			<div class="media-body">
+				<span class="float-right">07:23 AM</span>
+				<h4 class="m-0 text-primary">@Model.Subject</h4><small class="text-muted">Kime: @Model.Mail</small>
+			</div>
+		</div>
+		<p>
+			@Model.Message
+		</p>
+		<hr />	
+	</div>
+
+</div>
+

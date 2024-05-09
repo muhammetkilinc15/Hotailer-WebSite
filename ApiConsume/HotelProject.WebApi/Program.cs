@@ -4,6 +4,7 @@ using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concreate;
 using HotelProject.DataAccessLayer.EntityFramework;
 using HotelProject.EntityLayer.Concreate;
+using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,6 +43,8 @@ builder.Services.AddScoped<IGuestService, GuestManager>();
 
 builder.Services.AddScoped<ISendMessageDal, EfSendMessageDal>();
 builder.Services.AddScoped<ISendMessageService, SendMessageManager>();
+
+
 
 
 builder.Services.AddAutoMapper(typeof(Program)); // AutoMapper için ekledik

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx",
+      "PackagePath": "staticwebassets\\Files\\2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx"
+    },
+    {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx",
+      "PackagePath": "staticwebassets\\Files\\9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx"
+    },
+    {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg",
+      "PackagePath": "staticwebassets\\Images\\1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\36e611f6-220c-48dd-93df-fb40318c9512.png",
+      "PackagePath": "staticwebassets\\Images\\36e611f6-220c-48dd-93df-fb40318c9512.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HotelProject.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HotelProject.WebApi.props",
+      "PackagePath": "build\\HotelProject.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelProject.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\HotelProject.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HotelProject.WebApi.props",
+      "PackagePath": "buildTransitive\\HotelProject.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -266,3 +266,7 @@ C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\obj\Debug\net8.0\HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\MailKit.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\Frontend\HotelProject.WebUI\bin\Debug\net8.0\BouncyCastle.Crypto.dll

@@ -154,3 +154,5 @@ C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\b
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\HotelProject.WebApi.staticwebassets.runtime.json
+C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
