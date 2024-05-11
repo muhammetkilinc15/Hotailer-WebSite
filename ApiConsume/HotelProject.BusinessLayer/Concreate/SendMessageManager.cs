@@ -38,7 +38,12 @@ namespace HotelProject.BusinessLayer.Concreate
             return sendMessageDal.GetList();
         }
 
-        public void TUpdate(SendMessage entity)
+		public int TGetSendMessageCount()
+		{
+			return sendMessageDal.GetSendMessageCount();
+		}
+
+		public void TUpdate(SendMessage entity)
         {
             sendMessageDal.Update(entity);
         }

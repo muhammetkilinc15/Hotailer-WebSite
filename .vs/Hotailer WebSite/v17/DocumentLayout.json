@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\",
+  "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\messagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\messagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\mami\\documents\\github\\hotailer-website\\apiconsume\\hotelproject.webapi\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\views\\admincontact\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|c:\\users\\mami\\documents\\github\\hotailer-website\\apiconsume\\hotelproject.webapi\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392F1DBB-DD28-421B-A3A7-2894EB25B18B}|ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj|solutionrelative:apiconsume\\hotelproject.webapi\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|c:\\users\\mami\\documents\\github\\hotailer website\\frontend\\hotelproject.webui\\areas\\admin\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883B2769-6519-4F40-8AC9-43D79448488E}|Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj|solutionrelative:frontend\\hotelproject.webui\\areas\\admin\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A763878D-1C76-42C9-A658-CDF0F943F4A5}|ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj|c:\\users\\mami\\documents\\github\\hotailer-website\\apiconsume\\hotelproject.dtolayer\\dtos\\worklocationdto\\resultworklocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A763878D-1C76-42C9-A658-CDF0F943F4A5}|ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj|solutionrelative:apiconsume\\hotelproject.dtolayer\\dtos\\worklocationdto\\resultworklocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inbox.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\Inbox.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T20:00:03.981Z",
+              "DocumentIndex": 2,
+              "Title": "ResultWorkLocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\WorkLocationDto\\ResultWorkLocationDto.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\WorkLocationDto\\ResultWorkLocationDto.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.DtoLayer\\Dtos\\WorkLocationDto\\ResultWorkLocationDto.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.DtoLayer\\Dtos\\WorkLocationDto\\ResultWorkLocationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:56:29.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MessageDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Views\\AdminContact\\MessageDetails.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T19:55:10.217Z",
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\Mapping\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Mapping\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\Mapping\\AutoMapperConfig.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Mapping\\AutoMapperConfig.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBoAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:53:23.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminContactController.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
-              "RelativeDocumentMoniker": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
-              "RelativeToolTip": "Frontend\\HotelProject.WebUI\\Areas\\Admin\\Controllers\\AdminContactController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBUAAAArAAAA",
+              "DocumentIndex": 1,
+              "Title": "AppUserController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\AppUserController.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\HotelProject.WebApi\\Controllers\\AppUserController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\Controllers\\AppUserController.cs",
+              "RelativeToolTip": "ApiConsume\\HotelProject.WebApi\\Controllers\\AppUserController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:15:33.686Z",
+              "WhenOpened": "2024-05-11T15:51:58.167Z",
               "EditorCaption": ""
             }
           ]

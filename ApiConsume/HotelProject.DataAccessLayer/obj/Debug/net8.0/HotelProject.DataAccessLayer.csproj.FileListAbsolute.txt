@@ -16,3 +16,21 @@ C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DataAcce
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.genruntimeconfig.cache
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\ref\HotelProject.DataAccessLayer.dll
 C:\Users\mami\Documents\GitHub\Hotailer WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.sourcelink.json
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.DataAccessLayer.deps.json
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.DataAccessLayer.runtimeconfig.json
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.DataAccessLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.DataAccessLayer.pdb
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.EntityLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net8.0\HotelProject.EntityLayer.pdb
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.sourcelink.json
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelPro.61274476.Up2Date
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\refint\HotelProject.DataAccessLayer.dll
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.pdb
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\HotelProject.DataAccessLayer.genruntimeconfig.cache
+C:\Users\mami\Documents\GitHub\Hotailer-WebSite\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net8.0\ref\HotelProject.DataAccessLayer.dll

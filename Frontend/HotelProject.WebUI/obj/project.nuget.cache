@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6+rmwg4mLo0s36PgBkQXWlLPgz9aVuN8nGthO+MzAXE2znrG1/j39cQmJnIW+6j/EL2TB9dMrCfTWvAgydhtyA==",
+  "dgSpecHash": "5Qcvw2C8AINt27iAHbOEqoqNXIAIn2OhT1YuzVSIGlCpygtMeKfpToAWQmN3IOPaXgcTIhLMFni8qDh70JKrEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mami\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mami\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

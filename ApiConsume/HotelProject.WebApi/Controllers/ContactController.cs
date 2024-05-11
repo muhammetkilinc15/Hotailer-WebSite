@@ -23,7 +23,7 @@ namespace HotelProject.WebApi.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult AddContact([FromBody] Contact contact,CancellationToken token)
+		public IActionResult AddContact([FromBody] Contact contact, CancellationToken token)
 		{
 			if (contact is null)
 			{
@@ -38,6 +38,11 @@ namespace HotelProject.WebApi.Controllers
 		{
 			var values = _contactService.TGetByID(id);
 			return Ok(values);
+		}
+		[HttpGet("GetContactCount")]
+		public IActionResult GetContactCount()
+		{
+			return Ok(_contactService.TGetContactCount());
 		}
 
 	}

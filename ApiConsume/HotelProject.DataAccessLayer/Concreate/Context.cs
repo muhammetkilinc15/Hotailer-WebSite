@@ -16,6 +16,7 @@ namespace HotelProject.DataAccessLayer.Concreate
             optionsBuilder.UseSqlServer("server=DESKTOP-4GP61KD\\MSSQLSERVER2022;initial catalog=ApiDb;integrated security=true;TrustServerCertificate=True");
         }
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<WorkLocation> WorkLocations { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Staff> Staffs { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }

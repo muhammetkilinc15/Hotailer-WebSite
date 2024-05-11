@@ -49,6 +49,13 @@ namespace HotelProject.WebApi.Controllers
             _sendService.TUpdate(sendMessage);
             return Ok("Room Updated successfully!!!");
         }
+		[HttpGet("GetSendMessageCount")]
+		public IActionResult GetSendMessageCount()
+		{
+		
+			return Ok(_sendService.TGetSendMessageCount());
+		}
 
-    }
+
+	}
 }

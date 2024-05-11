@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kSG74fYgFl5dZtWmNlIsITNRQ0jUGiOohCyisMiSlSkbBX6SsmlHBR3TkH0rZ3yxbypro6iE3z/DaqvqmYAHQ==",
+  "dgSpecHash": "evJntC+SWEsDy0DglO6NYeJEZdUZUy/6aOTMPH3yz4knI2UvYZV/R3mJchsqDcW+mwoNFgxEbR9gc7Z9Lu2YTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\RapidApi\\RapidApi.Consume\\RapidApi.Consume.csproj",
+  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\RapidApi\\RapidApi.Consume\\RapidApi.Consume.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mami\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\mami\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

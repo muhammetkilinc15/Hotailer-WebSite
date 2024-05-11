@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x/LwC3V5UtniskuovoR3gXvnGZ1NduBKpDEwFVFNoOU=",
+  "Hash": "m5Ek+VQ1PYqEh0IeMmTl3bDxRZuiHRNz0iXyhW+S5Yc=",
   "Source": "HotelProject.WebApi",
   "BasePath": "_content/HotelProject.WebApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HotelProject.WebApi\\wwwroot",
       "Source": "HotelProject.WebApi",
-      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
       "BasePath": "_content/HotelProject.WebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx",
+      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx",
       "SourceId": "HotelProject.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
       "BasePath": "_content/HotelProject.WebApi",
       "RelativePath": "Files/2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\2787c0f4-0d06-45b2-8029-f4ace66a4fc4.pptx"
     },
     {
-      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx",
+      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Files\\9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx",
       "SourceId": "HotelProject.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
       "BasePath": "_content/HotelProject.WebApi",
       "RelativePath": "Files/9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\9e04ae3d-b503-40c0-82e6-fe576bae9437.pptx"
     },
     {
-      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg",
+      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg",
       "SourceId": "HotelProject.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
       "BasePath": "_content/HotelProject.WebApi",
       "RelativePath": "Images/1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\1e43af0f-31d0-49a3-9959-3cc43a8c989b.jpg"
     },
     {
-      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\36e611f6-220c-48dd-93df-fb40318c9512.png",
+      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\Images\\36e611f6-220c-48dd-93df-fb40318c9512.png",
       "SourceId": "HotelProject.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\ApiConsume\\HotelProject.WebApi\\wwwroot\\",
       "BasePath": "_content/HotelProject.WebApi",
       "RelativePath": "Images/36e611f6-220c-48dd-93df-fb40318c9512.png",
       "AssetKind": "All",

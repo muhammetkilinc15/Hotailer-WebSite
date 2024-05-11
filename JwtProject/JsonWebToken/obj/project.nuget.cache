@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pjo1qUMuwUu3uUpABPVxEb5vAfojjstcj5K9lriWRe82Uaj6Mj2YPZGTZMFZEuCJlBKJGcxMEnwZTsCwHTYijg==",
+  "dgSpecHash": "U4JU3Z9sE2OBxhHdtTFxM5tCb3KSy6SVuSxrNKAuWnowmjMjncCTBqaxUJHgYATFRQTtpEjEepeiv6xnPEErhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer WebSite\\JwtProject\\JsonWebToken\\JsonWebToken.csproj",
+  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Hotailer-WebSite\\JwtProject\\JsonWebToken\\JsonWebToken.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mami\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\mami\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
